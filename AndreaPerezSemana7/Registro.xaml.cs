@@ -28,7 +28,7 @@ namespace AndreaPerezSemana7
                 var Registros = new Estudiante { Nombre = txtNombre.Text, Usuario = txtUsuario.Text, Contrasenia = txtContrasenia.Text };
                 con.InsertAsync(Registros);
                 limpiarFormulario();
-
+                 
             }
             catch (Exception ex)
             {
